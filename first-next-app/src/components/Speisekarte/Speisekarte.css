@@ -1,0 +1,38 @@
+.speisekarte {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+.speisekarte h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.speisekarte ul {
+  list-style: none;
+  padding: 0;
+}
+
+.speisekarte li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Responsive Farben übernehmen wie in deinem globalen CSS */
+@media only screen and (max-width: 600px) {
+  .speisekarte {
+    color: deeppink;
+    background-color: coral;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .speisekarte {
+    color: green;
+    background-color: red;
+    font-size: 18px;
+  }
+}

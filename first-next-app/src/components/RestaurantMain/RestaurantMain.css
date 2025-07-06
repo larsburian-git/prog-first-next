@@ -1,0 +1,77 @@
+body {
+  background-color: purple;
+}
+
+* {
+  font-size: 14px;
+}
+
+main, table {
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    margin: 0 auto;
+    width: 20%;
+  }
+
+  p, h1, h2, h3, th, td, li, ul {
+    background-color: coral;
+    color: deeppink;
+  }
+
+  .speisekarte {
+    color: deeppink;
+    background-color: coral;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  p, h1, h2, h3, th, td, li, ul {
+    background-color: yellow;
+    color: green;
+  }
+
+  img {
+    margin: 0 auto;
+    width: 30%;
+    height: auto;
+  }
+
+  .speisekarte {
+    color: green;
+    background-color: red;
+    font-size: 25px;
+  }
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.container > * {
+  text-align: center;
+  align-content: center;
+  display: block;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+a:hover {
+  background-color: crimson;
+}

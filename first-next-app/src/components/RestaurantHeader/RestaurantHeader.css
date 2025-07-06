@@ -1,0 +1,14 @@
+/* RestaurantHeader.css */
+.restaurant-header {
+  font-size: 14px;
+}
+
+.restaurant-nav {
+  display: flex;
+  gap: 10px;
+}
+
+.restaurant-nav a {
+  text-decoration: none;
+  color: black;
+}
